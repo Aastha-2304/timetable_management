@@ -1,10 +1,10 @@
-# 🗓️ Timetable Management System
+#  Timetable Management System
 
 A web-based system built using the **MERN Stack (MongoDB, Express, React, Node.js)** for managing academic timetables efficiently. The app enables administrators to create, edit, and delete class schedules, detect conflicts, and send timetable update notifications via email.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Admin Controls:** Add, edit, and delete timetable entries.
 - **Email Notifications:** Sends update alerts using Brevo (Sendinblue) API.
@@ -24,13 +24,13 @@ A web-based system built using the **MERN Stack (MongoDB, Express, React, Node.j
 
 ##  Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/timetable_management.git
+git clone https://github.com/Aastha-2304/timetable_management.git
 cd timetable_management
 ```
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 **Backend:**
 ```bash
 cd server
@@ -42,7 +42,7 @@ cd ../client
 npm install
 ```
 
-### 3️⃣ Configure Environment Variables
+### 3️ Configure Environment Variables
 Create a `.env` file inside `/server` and add:
 ```env
 PORT=5000
@@ -51,7 +51,7 @@ JWT_SECRET=your_secret_key
 BREVO_API_KEY=your_brevo_api_key
 ```
 
-### 4️⃣ Run the Project
+### 4️ Run the Project
 **Backend:**
 ```bash
 npm run dev
@@ -82,7 +82,7 @@ Notifications are sent using **Brevo API** with subjects like:
 
 ---
 
-## 📸 Previews
+##  Previews
 ![Timetable Page](./img/ttpage.PNG)
 ![Notifications Page](./img/notif.PNG)
 ![Rooms Page](./img/rooms.PNG)
@@ -97,7 +97,6 @@ This project is licensed under the **MIT License**.
 
 ---
 
-**Developed by:** Your Name  
-📧 Email: your.email@example.com  
-💻 GitHub: [yourusername](https://github.com/yourusername)
+**Developed by:** Aastha and Shreshthi
+GitHub: [Aastha-2304](https://github.com/Aastha-2304)
 
