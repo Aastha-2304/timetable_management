@@ -4,11 +4,10 @@ A web-based system built using the **MERN Stack (MongoDB, Express, React, Node.j
 
 ---
 
-##  Key Features
+##  Features
 
 - **Admin Controls:** Add, edit, and delete timetable entries.
-- **Email Notifications:** Sends update alerts using Brevo (Sendinblue) API.
-- **Smart Filters:** Filter timetables by department and semester.
+- **Email Notifications:** Sends update alerts using Brevo API.
 - **Conflict Detection:** Highlights overlapping schedules (teacher, room, or time).
 - **Responsive UI:** Clean design built with Tailwind CSS.
 
@@ -17,32 +16,28 @@ A web-based system built using the **MERN Stack (MongoDB, Express, React, Node.j
 ##  Tech Stack
 
 **Frontend:** React.js, Tailwind CSS, Axios  
-**Backend:** Node.js, Express.js, MongoDB (Mongoose)  
-**Email Service:** Brevo (Sendinblue)
+**Backend:** Node.js, Express.js, MongoDB Cloud(Mongoose)  
+**Email Service:** Brevo 
 
 ---
 
 ##  Setup Instructions
 
-### 1️ Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Aastha-2304/timetable_management.git
 cd timetable_management
 ```
 
-### 2️ Install Dependencies
+### 2. Install Dependencies
 **Backend:**
 ```bash
 cd server
 npm install
 ```
-**Frontend:**
-```bash
-cd ../client
-npm install
-```
 
-### 3️ Configure Environment Variables
+
+### 3. Configure Environment Variables
 Create a `.env` file inside `/server` and add:
 ```env
 PORT=5000
@@ -51,7 +46,7 @@ JWT_SECRET=your_secret_key
 BREVO_API_KEY=your_brevo_api_key
 ```
 
-### 4️ Run the Project
+### 4. Run the Project
 **Backend:**
 ```bash
 npm run dev
@@ -92,11 +87,14 @@ Notifications are sent using **Brevo API** with subjects like:
 
 ---
 
-## 🏁 License
-This project is licensed under the **MIT License**.
+## Potential Future Updates
+1. Registration E-mail verification with OTP
+2. UI updates for mobile devices
+3. Mini dashboard on homepage
 
 ---
 
 **Developed by:** Aastha and Shreshthi
 GitHub: [Aastha-2304](https://github.com/Aastha-2304)
+GitHub: [shreshthisuman25](https://github.com/shreshthisuman25)
 
